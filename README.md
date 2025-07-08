@@ -11,19 +11,6 @@ This project explores an advanced approach to detecting anomalies in network tra
 
 ---
 
-### 📁 Project Structure
-
-
-Network_Anomaly_Detection.ipynb
-README.md
-models/
-    └── saved_autoencoder.h5
-data/
-    └── network_traffic.csv
-
-
----
-
 ### 🚀 Technologies Used
 
 * Python
@@ -37,7 +24,7 @@ data/
 
 ### 📊 Dataset
 
-The dataset used for this project contains labeled network traffic data with a mix of normal and anomalous connections. Features include:
+The dataset used for this project  CIC-IDS 2017 contains labeled network traffic data with a mix of normal and anomalous connections. Features include:
 
 * Duration
 * Protocol type
@@ -45,6 +32,7 @@ The dataset used for this project contains labeled network traffic data with a m
 * Flag types
 * ...and others.
 
+Dataset link : https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset
 ---
 
 ### 🧠 Models
@@ -60,29 +48,6 @@ The dataset used for this project contains labeled network traffic data with a m
 * Environment: Custom reward system based on false positives/negatives.
 * Algorithm: Deep Q-Learning or Proximal Policy Optimization (PPO)
 * Goal: Learn policies that improve detection confidence.
-
----
-
-### 🧪 How to Run
-
-1. Clone the repository:
-
-   bash
-   git clone https://github.com/kumarpiyushraj/Network-Anomaly-Detection-using-RL-model-and-Autoencoders.git
-   cd Network_Anomaly_Detection
-   
-
-2. Install dependencies:
-
-   bash
-   pip install -r requirements.txt
-   
-
-3. Run the notebook:
-
-   bash
-   jupyter notebook Network_Anomaly_Detection.ipynb
-   
 
 ---
 
