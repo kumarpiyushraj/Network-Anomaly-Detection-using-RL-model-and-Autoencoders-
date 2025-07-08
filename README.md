@@ -68,7 +68,7 @@ The dataset used for this project contains labeled network traffic data with a m
 1. Clone the repository:
 
    bash
-   git clone https://github.com/yourusername/Network_Anomaly_Detection.git
+   git clone https://github.com/kumarpiyushraj/Network-Anomaly-Detection-using-RL-model-and-Autoencoders.git
    cd Network_Anomaly_Detection
    
 
